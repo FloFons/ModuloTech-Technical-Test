@@ -9,11 +9,25 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(false)
+
+        setupViews()
     }
 
+    func setupViews() {
+        let label = UILabel()
+        label.text = "test application"
+        label.textColor = .black
+        view.backgroundColor = .white
+
+        self.view.addSubview(label)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            label.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+            label.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+        ])
+    }
 
 }
 
