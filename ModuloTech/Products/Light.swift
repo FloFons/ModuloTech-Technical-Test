@@ -1,5 +1,5 @@
 //
-//  Lights.swift
+//  Light.swift
 //  ModuloTech
 //
 //  Created by Florent Fonsalas on 07/09/2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Lights {
+class Light {
     private var alight: Bool
     private var intensity: Int
 

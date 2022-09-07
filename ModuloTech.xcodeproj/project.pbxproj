@@ -11,6 +11,10 @@
 		B135E89728C63193001F7957 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B135E89628C63193001F7957 /* SceneDelegate.swift */; };
 		B135E89928C63193001F7957 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B135E89828C63193001F7957 /* HomeViewController.swift */; };
 		B135E89E28C63197001F7957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B135E89D28C63197001F7957 /* Assets.xcassets */; };
+		B17E827E28C750FC00E2E90F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E827D28C750FC00E2E90F /* HomeViewModel.swift */; };
+		B17E828028C8A6EC00E2E90F /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E827F28C8A6EC00E2E90F /* Light.swift */; };
+		B17E828328C8A8FF00E2E90F /* RollerShutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E828228C8A8FF00E2E90F /* RollerShutter.swift */; };
+		B17E828528C8AC1600E2E90F /* Heater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E828428C8AC1600E2E90F /* Heater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B135E89828C63193001F7957 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B135E89D28C63197001F7957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B135E8A228C63197001F7957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B17E827D28C750FC00E2E90F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B17E827F28C8A6EC00E2E90F /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		B17E828228C8A8FF00E2E90F /* RollerShutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerShutter.swift; sourceTree = "<group>"; };
+		B17E828428C8AC1600E2E90F /* Heater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,22 @@
 				B135E89428C63193001F7957 /* AppDelegate.swift */,
 				B135E89628C63193001F7957 /* SceneDelegate.swift */,
 				B135E89828C63193001F7957 /* HomeViewController.swift */,
+				B17E827D28C750FC00E2E90F /* HomeViewModel.swift */,
+				B17E828128C8A8DB00E2E90F /* Products */,
 				B135E89D28C63197001F7957 /* Assets.xcassets */,
 				B135E8A228C63197001F7957 /* Info.plist */,
 			);
 			path = ModuloTech;
+			sourceTree = "<group>";
+		};
+		B17E828128C8A8DB00E2E90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17E827F28C8A6EC00E2E90F /* Light.swift */,
+				B17E828228C8A8FF00E2E90F /* RollerShutter.swift */,
+				B17E828428C8AC1600E2E90F /* Heater.swift */,
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B135E89928C63193001F7957 /* HomeViewController.swift in Sources */,
+				B17E828328C8A8FF00E2E90F /* RollerShutter.swift in Sources */,
+				B17E828528C8AC1600E2E90F /* Heater.swift in Sources */,
 				B135E89528C63193001F7957 /* AppDelegate.swift in Sources */,
+				B17E828028C8A6EC00E2E90F /* Light.swift in Sources */,
 				B135E89728C63193001F7957 /* SceneDelegate.swift in Sources */,
+				B17E827E28C750FC00E2E90F /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

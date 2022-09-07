@@ -15,18 +15,9 @@ class HomeViewController: UIViewController {
         setupViews()
     }
 
-    func setupViews() {
-        let label = UILabel()
-        label.text = "test application"
-        label.textColor = .black
+    private func setupViews() {
+        self.title = "My connected home 🏠"
         view.backgroundColor = .white
-
-        self.view.addSubview(label)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            label.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
-            label.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-        ])
     }
 
 }
