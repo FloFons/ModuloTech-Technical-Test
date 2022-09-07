@@ -20,7 +20,7 @@ class Light {
         }
     }
 
-    private func toggleLight() {
+    public func toggleLight() {
         if self.alight {
             self.alight = false
         } else {
@@ -28,7 +28,7 @@ class Light {
         }
     }
 
-    private func modifyIntensity(newIntensity: Int) {
+    public func modifyIntensity(newIntensity: Int) {
         if newIntensity >= 0 && newIntensity <= 100 {
             self.intensity = newIntensity
         }
